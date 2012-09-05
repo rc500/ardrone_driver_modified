@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown
+CMAKE_SOURCE_DIR = /home/rujian/fuerte_workspace/ardrone_brown
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown
+CMAKE_BINARY_DIR = /home/rujian/fuerte_workspace/ardrone_brown
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
@@ -60,9 +60,9 @@ msg_gen/cpp/include/ardrone_brown/Navdata.h: /opt/ros/fuerte/stacks/pluginlib/ma
 msg_gen/cpp/include/ardrone_brown/Navdata.h: /opt/ros/fuerte/share/message_filters/manifest.xml
 msg_gen/cpp/include/ardrone_brown/Navdata.h: /opt/ros/fuerte/stacks/image_common/image_transport/manifest.xml
 msg_gen/cpp/include/ardrone_brown/Navdata.h: /opt/ros/fuerte/share/std_srvs/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating msg_gen/cpp/include/ardrone_brown/Navdata.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/msg/Navdata.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/rujian/fuerte_workspace/ardrone_brown/msg/Navdata.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
 ROSBUILD_genmsg_cpp: msg_gen/cpp/include/ardrone_brown/Navdata.h
@@ -78,6 +78,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rujian/fuerte_workspace/ardrone_brown && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 

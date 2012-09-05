@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_driver.cpp" "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o"
-  "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_sdk.cpp" "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o"
-  "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/teleop_twist.cpp" "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/teleop_twist.o"
-  "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/video.cpp" "/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/video.o"
+  "/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_driver.cpp" "/home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o"
+  "/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.cpp" "/home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o"
+  "/home/rujian/fuerte_workspace/ardrone_brown/src/teleop_twist.cpp" "/home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/teleop_twist.o"
+  "/home/rujian/fuerte_workspace/ardrone_brown/src/video.cpp" "/home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/ardrone_driver.dir/src/video.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

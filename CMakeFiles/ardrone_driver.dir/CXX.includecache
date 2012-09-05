@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_driver.cpp
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_driver.cpp
 ardrone_driver.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_driver.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_driver.h
 teleop_twist.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/teleop_twist.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/teleop_twist.h
 video.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/video.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/video.h
 
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_driver.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_driver.h
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -24,9 +24,17 @@ sensor_msgs/Image.h
 ardrone_brown/Navdata.h
 -
 ardrone_sdk.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_sdk.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.h
 
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_sdk.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.cpp
+ardrone_sdk.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.h
+teleop_twist.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/teleop_twist.h
+video.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/video.h
+
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.h
 VP_Api/vp_api.h
 -
 VP_Api/vp_api_error.h
@@ -72,13 +80,13 @@ ardrone_tool/Control/ardrone_control.h
 ardrone_tool/Navdata/ardrone_navdata_client.h
 -
 
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/teleop_twist.cpp
+/home/rujian/fuerte_workspace/ardrone_brown/src/teleop_twist.cpp
 teleop_twist.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/teleop_twist.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/teleop_twist.h
 
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/teleop_twist.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/teleop_twist.h
 ardrone_sdk.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_sdk.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.h
 geometry_msgs/Twist.h
 -
 std_msgs/Empty.h
@@ -88,9 +96,13 @@ std_msgs/UInt8.h
 std_srvs/Empty.h
 -
 
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/video.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/video.cpp
+video.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/video.h
+
+/home/rujian/fuerte_workspace/ardrone_brown/src/video.h
 ardrone_sdk.h
-/home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/src/ardrone_sdk.h
+/home/rujian/fuerte_workspace/ardrone_brown/src/ardrone_sdk.h
 
 /opt/ros/fuerte/include/XmlRpcDecl.h
 ros/macros.h

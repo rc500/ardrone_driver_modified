@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown
+CMAKE_SOURCE_DIR = /home/rujian/fuerte_workspace/ardrone_brown
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown
+CMAKE_BINARY_DIR = /home/rujian/fuerte_workspace/ardrone_brown
 
 # Utility rule file for ROSBUILD_genmsg_py.
 
@@ -45,9 +45,9 @@ include CMakeFiles/ROSBUILD_genmsg_py.dir/progress.make
 CMakeFiles/ROSBUILD_genmsg_py: src/ardrone_brown/msg/__init__.py
 
 src/ardrone_brown/msg/__init__.py: src/ardrone_brown/msg/_Navdata.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/ardrone_brown/msg/__init__.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/genmsg_py.py --initpy /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/msg/Navdata.msg
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/genmsg_py.py --initpy /home/rujian/fuerte_workspace/ardrone_brown/msg/Navdata.msg
 
 src/ardrone_brown/msg/_Navdata.py: msg/Navdata.msg
 src/ardrone_brown/msg/_Navdata.py: /opt/ros/fuerte/share/rospy/rosbuild/scripts/genmsg_py.py
@@ -65,9 +65,9 @@ src/ardrone_brown/msg/_Navdata.py: /opt/ros/fuerte/stacks/pluginlib/manifest.xml
 src/ardrone_brown/msg/_Navdata.py: /opt/ros/fuerte/share/message_filters/manifest.xml
 src/ardrone_brown/msg/_Navdata.py: /opt/ros/fuerte/stacks/image_common/image_transport/manifest.xml
 src/ardrone_brown/msg/_Navdata.py: /opt/ros/fuerte/share/std_srvs/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/ardrone_brown/msg/_Navdata.py"
-	/opt/ros/fuerte/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/msg/Navdata.msg
+	/opt/ros/fuerte/share/rospy/rosbuild/scripts/genmsg_py.py --noinitpy /home/rujian/fuerte_workspace/ardrone_brown/msg/Navdata.msg
 
 ROSBUILD_genmsg_py: CMakeFiles/ROSBUILD_genmsg_py
 ROSBUILD_genmsg_py: src/ardrone_brown/msg/__init__.py
@@ -84,6 +84,6 @@ CMakeFiles/ROSBUILD_genmsg_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_py.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_py.dir/depend:
-	cd /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/ROSBUILD_genmsg_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rujian/fuerte_workspace/ardrone_brown && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/ROSBUILD_genmsg_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_py.dir/depend
 

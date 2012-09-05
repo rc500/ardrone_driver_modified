@@ -171,6 +171,7 @@ CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/ros/ser
 CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/ros/time.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/ros/types.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/std_msgs/Empty.h
+CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/std_msgs/UInt8.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/std_srvs/Empty.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/std_srvs/EmptyRequest.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_sdk.o: /opt/ros/fuerte/include/std_srvs/EmptyResponse.h

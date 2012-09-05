@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown
+CMAKE_SOURCE_DIR = /home/rujian/fuerte_workspace/ardrone_brown
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown
+CMAKE_BINARY_DIR = /home/rujian/fuerte_workspace/ardrone_brown
 
 # Utility rule file for test.
 
@@ -57,6 +57,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown /home/rujian/fuerte_workspace/brown-ros-pkg-read-only/experimental/ardrone_brown/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rujian/fuerte_workspace/ardrone_brown && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown /home/rujian/fuerte_workspace/ardrone_brown/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 

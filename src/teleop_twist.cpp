@@ -66,6 +66,14 @@ void toggleCamCallback(const std_msgs::Empty &msg)
     }
 }	//rujian aug 8
 
+//callback function for selecting camera mode explicitly with integers		//rujian sept 2
+void camselectCallback(const std_msgs::UInt8 &msg)
+{
+	cam_state = msg.data;
+	ARDRONE_TOOL_CONFIGURATION_ADDEVENT (video_channel, &cam_state, NULL);
+	fprintf(stderr, "camselect callback - setting cam_state to %d.\n", cam_state);
+}	//rujian sept 2
+
 
 void cmdVelCallback(const geometry_msgs::TwistConstPtr &msg)
 {

@@ -17,6 +17,7 @@ ARDroneDriver::ARDroneDriver()
 	navdata_pub = node_handle.advertise<ardrone_brown::Navdata>("/ardrone/navdata", 1);
 	toggleCam_sub = node_handle.subscribe("/ardrone/togglecam", 10, &toggleCamCallback);	//rujian aug 8
 	hover_sub = node_handle.subscribe("/ardrone/hover", 1, &hoverCallback);		//rujian July27
+	camselect_sub = node_handle.subscribe("/ardrone/camselect",10,&camselectCallback);		//rujian sept 2
 
 #ifdef _USING_SDK_1_7_
 	//Ensure that the horizontal camera is running

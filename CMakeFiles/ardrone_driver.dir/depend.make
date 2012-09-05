@@ -67,6 +67,7 @@ CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/sens
 CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/sensor_msgs/RegionOfInterest.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/std_msgs/Empty.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/std_msgs/Header.h
+CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/std_msgs/UInt8.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/std_srvs/Empty.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/std_srvs/EmptyRequest.h
 CMakeFiles/ardrone_driver.dir/src/ardrone_driver.o: /opt/ros/fuerte/include/std_srvs/EmptyResponse.h
@@ -262,6 +263,7 @@ CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/ros/se
 CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/ros/time.h
 CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/ros/types.h
 CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/std_msgs/Empty.h
+CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/std_msgs/UInt8.h
 CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/std_srvs/Empty.h
 CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/std_srvs/EmptyRequest.h
 CMakeFiles/ardrone_driver.dir/src/teleop_twist.o: /opt/ros/fuerte/include/std_srvs/EmptyResponse.h

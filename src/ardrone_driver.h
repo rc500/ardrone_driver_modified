@@ -28,6 +28,7 @@ private:
 	image_transport::CameraPublisher image_pub;
 	ros::Publisher navdata_pub;
 	ros::Subscriber hover_sub;		//rujian July 27
+	ros::Subscriber camselect_sub;	//rujian Sept 2
 
 	ros::Subscriber toggleCam_sub;		//rujian aug 8
 	//ros::ServiceServer toggleCam_service;	//rujian aug 8

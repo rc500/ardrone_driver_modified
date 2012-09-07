@@ -78,7 +78,7 @@ void camselectCallback(const std_msgs::UInt8 &msg)
 void cmdVelCallback(const geometry_msgs::TwistConstPtr &msg)
 {
 	do_not_hover = 1;
-	const float maxHorizontalSpeed = 1; // use 0.1f for testing and 1 for the real thing
+	const float maxHorizontalSpeed = 0.12; // use 0.1f for testing and 1 for the real thing
 	cmd_vel.linear.x  = max(min(-msg->linear.x, maxHorizontalSpeed), -maxHorizontalSpeed);
 	cmd_vel.linear.y  = max(min(-msg->linear.y, maxHorizontalSpeed), -maxHorizontalSpeed);
 	cmd_vel.linear.z  = max(min(msg->linear.z, 1), -1);
